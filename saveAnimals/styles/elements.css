@@ -885,7 +885,8 @@ section
 	font-size: 30px;
 	font-weight: 500;
 	color: #4c4c4c;
-	line-height: 0.75;
+	line-height: 1;
+	
 }
 
 /*********************************
@@ -955,12 +956,13 @@ body{
 .button_3
 {
 	border: solid 2px transparent;
+	background: #FFFFFF;
 	border-image: linear-gradient(to right, #4867c0, #329fec);
 	border-image-slice: 1;
 }
 .button_3::before
 {
-	background: transparent;
+	background: #FFFFFF;
 	opacity: 0;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;

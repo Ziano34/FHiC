@@ -1,2 +1,0 @@
-# FHiC
-Factors Humans
